@@ -1,28 +1,21 @@
+import styles from './form.module.css'
+
+import Input from '../form/Input'
+import Select from '../form/Select'
+
 function formturma(){
     return(
-        <form>
-        <div>
-        <label for="turno">Turno:</label> 
-        <select required>
-            <option value="Manhã">Selecione uma opção.</option>
-            <option value="Manhã">Manhã</option>
-            <option value="Tarde">Tarde</option>
-            <option value="Noite">Noite</option>
-        </select>
-        </div>
+        <form className={styles.form}>
 
-        <div><input type="number" placeholder="Número da sala" required /></div>
+        <Select name="turno" text="Informe o turno"/>
+
+        <Input type="number" text="Número da sala" name="name"/>
         
-        <div>
-        <label for="ano">Ano:</label> 
-        <select required>
-            <option value="1°ano">1° ano</option>
-            <option value="2°ano">2° ano</option>
-            <option value="3°ano">3° ano</option>
-        </select>
-        </div>
+        <Select name="turno" text="Informe o ano"/>
 
-        <div><input type="number" placeholder="Quantidade de alunos" required /></div>
+        <Input type="number" text="Quantidade de alunos" name="name"/>
+
+        <input type="submit"  value="Criar turma" />
 
         </form>
     )
