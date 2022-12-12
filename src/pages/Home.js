@@ -12,7 +12,7 @@ function Home(){
             <div>
             <LinkButton to="/Matricular aluno" text="Matricular aluno" />
             <LinkButton to="/Cadastrar professor" text="Cadastrar professor" />
-            <LinkButton to="/Criar turma" text="Criar turma" />
+            <LinkButton to="/Criarturma" text="Criar turma" />
             </div>
         </section>
     )

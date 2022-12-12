@@ -3,6 +3,7 @@ import Home from './pages/Home'
 import Alunos from './pages/Alunos'
 import Professores from './pages/Professores'
 import Turmas from './pages/Turmas'
+import Criarturma from './pages/Criarturma'
 
 import Container from './layout/Container'
 import NavBar from './layout/NavBar'
@@ -21,6 +22,8 @@ function App() {
       <Route path='/alunos' element={<Alunos/>} />
       <Route path='/professores' element={<Professores/>} />
       <Route path='/turmas' element={<Turmas/>} />
+      <Route path='/criarturma' element={<Criarturma/>} />
+
       </Routes>
 
       </Container>
