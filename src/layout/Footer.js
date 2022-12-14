@@ -10,7 +10,7 @@ function Footer() {
             <li><FaInstagram /></li>
             <li><FaLinkedin /></li>
         </ul>
-
+        
         <p className={styles.copy_right}><span>C. Cabral</span> &copy; 2022</p>
 
     </footer>
